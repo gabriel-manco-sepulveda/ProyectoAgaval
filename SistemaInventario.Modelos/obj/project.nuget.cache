@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "FGAZWwGFQcA7oeS3oMFlQvZvhE4m5of4A7G4p7EzjmRwwiT905Fl2Qa7e/RLnAiwnC2F4FySnMPlSe+TE1fXyQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gabom\\source\\repos\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gabom\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.19\\microsoft.windowsdesktop.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\gabom\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.19\\microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\gabom\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.19\\microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}
