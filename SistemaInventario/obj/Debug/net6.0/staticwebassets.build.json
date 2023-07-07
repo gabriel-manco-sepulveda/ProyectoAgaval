@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SantmgXUdZ2DPdTe0P+MbvxrDorIEwvvaOv2tpeR/ZI=",
+  "Hash": "2EhVGX++nOPNnZVMB9mEjt87sUP7M6s3UxsMahy2Oas=",
   "Source": "SistemaInventario",
   "BasePath": "_content/SistemaInventario",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\gabom\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\Bodega.js",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gabom\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "js/Bodega.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Bodega.js"
     },
     {
       "Identity": "C:\\Users\\gabom\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\site.js",

@@ -8,6 +8,7 @@ namespace SistemaInventario.Utilidades
 {
     public static class DefinicionesEstaticas
     {
-
+        public const string Exitosa = "Exitosa";
+        public const string Error = "Error";
     }
 }
