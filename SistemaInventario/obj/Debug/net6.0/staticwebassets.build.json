@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0MB+ZPUuYTzKICKW+59dQRhc10Mtl8kZUb2rEcPy2z4=",
+  "Hash": "PnOLFze0sNlr1ek4XeQ1WCOgPSDpIR+U/+hFeczLYU4=",
   "Source": "SistemaInventario",
   "BasePath": "_content/SistemaInventario",
   "Mode": "Default",
@@ -1137,6 +1137,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Categoria.js"
+    },
+    {
+      "Identity": "C:\\Users\\gabom\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\Marca.js",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gabom\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "js/Marca.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Marca.js"
     },
     {
       "Identity": "C:\\Users\\gabom\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\site.js",
