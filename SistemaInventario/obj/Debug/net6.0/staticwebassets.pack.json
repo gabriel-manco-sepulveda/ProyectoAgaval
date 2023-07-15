@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\gabom\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\icono.ico",
+      "PackagePath": "staticwebassets\\imagenes\\icono.ico"
+    },
+    {
+      "Id": "C:\\Users\\gabom\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\icono.png",
+      "PackagePath": "staticwebassets\\imagenes\\icono.png"
+    },
+    {
       "Id": "C:\\Users\\gabom\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\215685ae-e88c-4b80-894a-c13438d2df0d.JPG",
       "PackagePath": "staticwebassets\\imagenes\\producto\\215685ae-e88c-4b80-894a-c13438d2df0d.JPG"
     },
@@ -27,6 +35,10 @@
     {
       "Id": "C:\\Users\\gabom\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\d03764a3-aaad-48bd-a04d-26d70991e936.JPG",
       "PackagePath": "staticwebassets\\imagenes\\producto\\d03764a3-aaad-48bd-a04d-26d70991e936.JPG"
+    },
+    {
+      "Id": "C:\\Users\\gabom\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\effb3c70-d615-4a5f-a57f-db95b59a8df9.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\effb3c70-d615-4a5f-a57f-db95b59a8df9.JPG"
     },
     {
       "Id": "C:\\Users\\gabom\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\Bodega.js",
