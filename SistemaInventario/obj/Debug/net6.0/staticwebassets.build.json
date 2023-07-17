@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "A7IoJ7EycjOcpHpbbrXtjYlcSSzPzuNa4A0UCe8cN4M=",
+  "Hash": "qb9tqB9of7gvf4eHubQGnAp25Aihloxe1SzQL61J5bw=",
   "Source": "SistemaInventario",
   "BasePath": "_content/SistemaInventario",
   "Mode": "Default",
@@ -1188,6 +1188,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\producto\\6f98f64b-6dca-4941-aebd-cf902f489e05.JPG"
+    },
+    {
+      "Identity": "C:\\Users\\gabom\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\98bf0a80-9972-4c85-887c-7ca7d67f4067.JPG",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gabom\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "imagenes/producto/98bf0a80-9972-4c85-887c-7ca7d67f4067.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\producto\\98bf0a80-9972-4c85-887c-7ca7d67f4067.JPG"
     },
     {
       "Identity": "C:\\Users\\gabom\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\d03764a3-aaad-48bd-a04d-26d70991e936.JPG",
