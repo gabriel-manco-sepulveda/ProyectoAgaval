@@ -23,11 +23,15 @@ function loadDataTable() {
         "ajax": {
             "url": "/Admin/Producto/ObtenerTodos"
         },
+
         "columns": [
             { "data": "numeroSerie",},
             { "data": "descripcion", },
-            { "data": "categoria.nombre", },
-            { "data": "marca.nombre", },
+            { "data": "costo", },
+            { "data": "precio", },
+            { "data": "Seccion.Nombre", },
+            { "data": "proveedor.Nombre", },
+            { "data": "estado", },
             {
                 "data": "precio", "className": "text-end",
                 "render": function (data) {

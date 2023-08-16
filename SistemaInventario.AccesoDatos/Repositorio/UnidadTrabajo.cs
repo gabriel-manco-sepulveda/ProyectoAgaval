@@ -11,16 +11,16 @@ namespace SistemaInventario.AccesoDatos.Repositorio
     public class UnidadTrabajo : IUnidadTrabajo
     {
         private readonly ApplicationDbContext _db;
-        public IBodegaRepositorio Bodega {  get; private set; }
-        public ICategoriaRepositorio Categoria { get; private set; }
-        public IMarcaRepositorio Marca { get; private set; }
+        public IClienteRepositorio Cliente { get; private set; }
+        public ISeccionRepositorio Seccion { get; private set; }
+        public IProveedorRepositorio Proveedor { get; private set; }
         public IProductoRepositorio Producto { get; private set; }
         public UnidadTrabajo(ApplicationDbContext db)
         {
             _db = db;
-            Bodega = new BodegaRepositorio(_db);
-            Categoria = new CategoriaRepositorio(_db);
-            Marca = new MarcaRepositorio(_db);
+            Cliente = new ClienteRepositorio(_db);
+            Seccion = new SeccionRepositorio(_db);
+            Proveedor = new ProveedorRepositorio(_db);
             Producto = new ProductoRepositorio(_db);
         }
 
@@ -32,7 +32,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio
 
         public async Task Guardar()
         {
-           await _db.SaveChangesAsync();
+            await _db.SaveChangesAsync();
         }
     }
 }

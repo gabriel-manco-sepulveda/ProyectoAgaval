@@ -32,10 +32,10 @@ namespace SistemaInventario.AccesoDatos.Repositorio
                 productoDB.NumeroSerie = producto.NumeroSerie;
                 productoDB.Descripcion = producto.Descripcion;
                 productoDB.Padre = producto.Padre;
-                productoDB.CategoriaId = producto.CategoriaId;
+                productoDB.SeccionId = producto.SeccionId;
                 productoDB.Costo = producto.Costo;
                 productoDB.Precio = producto.Precio;
-                productoDB.MarcaId = producto.MarcaId;
+                productoDB.ProveedorId = producto.ProveedorId;
                 productoDB.Estado = producto.Estado;
 
                 _db.SaveChanges();
@@ -44,18 +44,18 @@ namespace SistemaInventario.AccesoDatos.Repositorio
 
         public IEnumerable<SelectListItem> ObtenerTodosDropdownLista(string Obj)
         {
-            if (Obj == "Categoria")
+            if (Obj == "Seccion")
             {
-                return _db.Categorias.Where(c => c.Estado == true).Select(c => new SelectListItem
+                return _db.Seccions.Where(c => c.Estado == true).Select(c => new SelectListItem
                 {
                     Text = c.Nombre,
                     Value = c.Id.ToString()
                 });
             }
 
-            if (Obj == "Marca")
+            if (Obj == "Proveedor")
             {
-                return _db.Marcas.Where(c => c.Estado == true).Select(c => new SelectListItem
+                return _db.Proveedors.Where(c => c.Estado == true).Select(c => new SelectListItem
                 {
                     Text = c.Nombre,
                     Value = c.Id.ToString()

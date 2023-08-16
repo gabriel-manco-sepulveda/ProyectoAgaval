@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2wVdRqpPkQJBD1qmskgYvWDxC4bAUrykllzPDuLzHfOh2l5hFA+owxOjBtLieBr5eFunNrNvIGq2Eaul6CEZ3A==",
+  "dgSpecHash": "I4ZoHnH8+VUDxd41OAxtxgvrKBoh80s+kU8MT1xhA79cfXoDaZM7uDM3l/kDp0YUVtGzlraJa4H5/gF08cKNyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabom\\source\\repos\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj",
+  "projectFilePath": "C:\\Users\\gabom\\Source\\Repos\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabom\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\gabom\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -264,11 +264,7 @@
     "C:\\Users\\gabom\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\gabom\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\gabom\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\gabom\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\gabom\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.19\\microsoft.windowsdesktop.app.ref.6.0.19.nupkg.sha512",
-    "C:\\Users\\gabom\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.19\\microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
-    "C:\\Users\\gabom\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.19\\microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512",
-    "C:\\Users\\gabom\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.19\\microsoft.netcore.app.host.win-x64.6.0.19.nupkg.sha512"
+    "C:\\Users\\gabom\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

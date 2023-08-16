@@ -11,8 +11,8 @@ namespace SistemaInventario.Modelos.ViewModel
     {
         public Producto Producto { get; set; }
 
-        public IEnumerable<SelectListItem> CategoriaLista {  get; set; }
-        public IEnumerable<SelectListItem> MarcaLista { get; set; }
+        public IEnumerable<SelectListItem> ProveedorLista {  get; set; }
+        public IEnumerable<SelectListItem> SeccionLista { get; set; }
         public IEnumerable<SelectListItem> PadreLista { get; set; }
     }
 }

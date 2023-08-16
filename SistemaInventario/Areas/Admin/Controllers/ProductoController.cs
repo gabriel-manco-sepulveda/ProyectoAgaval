@@ -32,8 +32,8 @@ namespace SistemaInventario.Areas.Admin.Controllers
             ProductoVM productoVM = new ProductoVM()
             {
                 Producto = new Producto(),
-                CategoriaLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Categoria"),
-                MarcaLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Marca"),
+                SeccionLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Seccion"),
+                ProveedorLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Proveedor"),
                 PadreLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Producto"),
             };
 
@@ -113,8 +113,8 @@ namespace SistemaInventario.Areas.Admin.Controllers
                 return View("Index");
 
             }  // If not Valid
-            productoVM.CategoriaLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Categoria");
-            productoVM.MarcaLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Marca");
+            productoVM.SeccionLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Seccion");
+            productoVM.ProveedorLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Proveedor");
             productoVM.PadreLista = _unidadTrabajo.Producto.ObtenerTodosDropdownLista("Producto");
             
             return View(productoVM);
@@ -125,7 +125,7 @@ namespace SistemaInventario.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> ObtenerTodos()
         {
-            var todos = await _unidadTrabajo.Producto.ObtenerTodos(IncluirPropiedades: "Categoria,Marca");
+            var todos = await _unidadTrabajo.Producto.ObtenerTodos(IncluirPropiedades: "Seccion, Proveedor");
             return Json(new { data = todos });
         }
 

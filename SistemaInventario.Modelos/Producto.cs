@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace SistemaInventario.Modelos
@@ -17,7 +18,7 @@ namespace SistemaInventario.Modelos
         [MaxLength(60, ErrorMessage = "Número de serie sólo acepta 60 caracteres")]
         public string NumeroSerie { get; set; }
 
-        [Required(ErrorMessage ="La descripción es requerida")]
+        [Required(ErrorMessage = "La descripción es requerida")]
         public string Descripcion { get; set; }
 
         [Required(ErrorMessage = "El precio es requerido")]
@@ -31,20 +32,19 @@ namespace SistemaInventario.Modelos
         [Required(ErrorMessage = "El estado es requerido")]
         public bool Estado { get; set; }
 
-        [Required(ErrorMessage = "CategoriaId es requerido")]
-        public int CategoriaId { get; set; }
+        [Required(ErrorMessage = "SeccionId es requerido")]
+        public int SeccionId { get; set; }
 
-        [ForeignKey("CategoriaId")]
-        public Categoria Categoria { get; set; }
+        [ForeignKey("SeccionId")]
+        public Seccion Seccion { get; set; }
 
-        [Required(ErrorMessage = "MarcaId es requerido")]
-        public int MarcaId { get; set; }
+        [Required(ErrorMessage = "ProveedorId es requerido")]
+        public int ProveedorId { get; set; }
 
-        [ForeignKey("MarcaId")]
-        public Marca Marca { get; set; }
+        [ForeignKey("ProveedorId")]
+        public Proveedor Proveedor { get; set; }
         public int? PadreId { get; set; }
 
-        public virtual Producto Padre {get;set;}
-
+        public virtual Producto Padre { get; set; }
     }
 }

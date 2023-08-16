@@ -19,19 +19,19 @@ namespace SistemaInventario.AccesoDatos.Configuracion
             builder.Property(x => x.Estado).IsRequired();
             builder.Property(x => x.Precio).IsRequired();
             builder.Property(x => x.Costo).IsRequired();
-            builder.Property(x => x.CategoriaId).IsRequired();
-            builder.Property(x => x.MarcaId).IsRequired();
+            builder.Property(x => x.SeccionId).IsRequired();
+            builder.Property(x => x.ProveedorId).IsRequired();
             builder.Property(x => x.ImagenUrl).IsRequired(false);
             builder.Property(x => x.PadreId).IsRequired(false);
 
             /* Relaciones */
 
-            builder.HasOne(x => x.Categoria).WithMany()
-                .HasForeignKey(x => x.CategoriaId)
+            builder.HasOne(x => x.Seccion).WithMany()
+                .HasForeignKey(x => x.SeccionId)
                 .OnDelete(DeleteBehavior.NoAction);
 
-            builder.HasOne(x => x.Marca).WithMany()
-                .HasForeignKey(x => x.MarcaId)
+            builder.HasOne(x => x.Proveedor).WithMany()
+                .HasForeignKey(x => x.ProveedorId)
                 .OnDelete(DeleteBehavior.NoAction);
 
             builder.HasOne(x => x.Padre).WithMany()

@@ -10,11 +10,11 @@ namespace SistemaInventario.AccesoDatos.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
-        }
 
-        public DbSet<Bodega> Bodegas { get; set; }
-        public DbSet<Categoria> Categorias { get; set; }
-        public DbSet<Marca> Marcas { get; set; }
+        }
+        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Seccion> Seccions { get; set; }
+        public DbSet<Proveedor> Proveedors { get; set; }
         public DbSet<Producto> Productos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
